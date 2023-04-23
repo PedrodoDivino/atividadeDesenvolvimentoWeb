@@ -1,8 +1,8 @@
 function drawerNumber() {
-    let numberOne = document.getElementById('numberOne').value;
-    let valueMin = parseInt(numberOne);
-    let secondNumber = document.getElementById('secondNumber').value;
-    let valueMax = parseInt(secondNumber);
-    result = Math.floor((Math.random() * (valueMax-valueMin +1)) + valueMin);
-    document.getElementById('content').innerHTML = result;
+const numberOne = parseInt(document.getElementById('numberOne').value);
+  const numberTwo = parseInt(document.getElementById('secondNumber').value);
+  const min = Math.min(numberOne, numberTwo);
+  const max = Math.max(numberOne, numberTwo);
+  const result = Math.floor(Math.random() * (max - min + 1)) + min;
+  document.getElementById('content').textContent = result;
 }
