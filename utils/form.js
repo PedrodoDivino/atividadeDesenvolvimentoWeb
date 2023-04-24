@@ -5,11 +5,9 @@ function getData() {
     const state = document.getElementById('civilStates').value;
     const instagram = document.getElementById('instagram').value;
     const gender = document.getElementById('gender').value;
-    const resut = "O seu nome é " + name + " seu sobre nome é" + lastName +
-        "sua cidade é " + city + " seu estado civil é " + state + " seu instagram é @" + instagram +
-        "e voce  é " + gender;
+    const resut = `Olá  ${name} ${lastName}  <br>
+        sua cidade é  ${city} <br> seu estado civil é ${state}<br>  seu instagram é @ ${instagram}<br> 
+        e voce  é  ${gender} <br><br> obrigado por visitar o meu cadasdtro XD`;
     document.getElementById('result').innerHTML = resut
-
-   // TODO AJUSTAR DEPOIS NOMES
 }
 
