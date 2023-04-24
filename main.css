@@ -48,34 +48,6 @@ body {
     margin: 0 auto;
 }
 
-.curriculo {
-    width: 700px;
-    height: 400px;
-    position: relative;
-    display: block;
-    padding: 1rem
-}
-
-.curriculo::before {
-    content: "";
-    background-image: url('https://avatars.githubusercontent.com/u/89162241?s=400&u=9f189e45aa91589e0d4d58fa6e2ed02ffb19a290&v=4');
-    opacity: 0.2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: auto;
-    height: 100vh;
-    z-index: -3;
-}
-
-.curriculo h2 {
-    padding-top: 15rem;
-}
-
 .sorteador {
     width: 700px;
     height: 400px;
